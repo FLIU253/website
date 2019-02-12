@@ -1,0 +1,23 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #252934;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.copyright{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#1B242F;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: small;
+}
+.copy-text{
+  opacity: 0.5;
+}

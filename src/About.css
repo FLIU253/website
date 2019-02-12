@@ -5,3 +5,7 @@
   line-height: 30px;
   text-align: justify;
 }
+.progress-label {
+    float: left;
+    margin-right: 1em;
+}

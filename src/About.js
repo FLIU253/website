@@ -18,6 +18,25 @@ const About = () => {
       </div>
       <div className="col">
       skill section
+      <br/>
+      <br/>
+       <h6 className="progress-label">Java</h6>
+      <div className="progress mb-2" style = {{height: '20px'}}>
+      <div className="progress-bar bg-success" role="progressbar" style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 25%</div>
+    </div>
+    <h6 className="progress-label">Java</h6>
+    <div className="progress mb-2" style = {{height: '20px'}}>
+      <div className="progress-bar bg-info" role="progressbar" style={{width: '25%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <h6 className="progress-label">Java</h6>
+    <div className="progress mb-2" style = {{height: '20px'}}>
+      <div className="progress-bar bg-warning" role="progressbar" style={{width: '25%'}} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <h6 className="progress-label">Java</h6>
+    <div className="progress mb-2" style = {{height: '20px'}}>
+      <div className="progress-bar bg-danger" role="progressbar" style={{width: '25%'}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
       </div>
       </div>
       </div>

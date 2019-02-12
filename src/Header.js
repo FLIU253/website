@@ -21,9 +21,9 @@ const  Header = () =>{
                 <li><a href="/">Contact</a></li>
                 <li><a href="/">Contact</a></li>
              </ul>
-             <div className = "text-white text-center mt-5">
-              <h3>Hey, I'm</h3>
-              <h1 className = "mt-4">Franklin Liu</h1>
+             <div className = "text-white text-center center">
+                  <h1>Hello, I'm Franklin Liu</h1>
+                  
              </div>
           </div>
        </nav>

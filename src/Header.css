@@ -2,9 +2,6 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-body {
   font-family: "Helvetica Neue",sans-serif;
   font-weight: lighter;
 }
@@ -12,10 +9,15 @@ body {
 header {
   width: 100%;
   height: 100vh;
-  background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+  background: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue1400x900.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
-
+.center{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .logo {
   line-height: 60px;
   /* position fixed keeps the content on the same spot
@@ -50,10 +52,6 @@ nav ul {
   transition: 1s;
 }
 
-nav.black ul {
-  background: #000;
-}
-
 nav ul li {
   display: inline-block;
   padding: 16px 40px;;
@@ -68,7 +66,6 @@ nav ul li a {
 .menu-icon {
   line-height: 60px;
   width: 100%;
-  background: #000;
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
@@ -87,12 +84,8 @@ nav ul li a {
 
   nav ul {
         max-height: 0px;
-        background: #000;
   }
 
-  nav.black ul {
-        background: #000;
-  }
 
   .showing {
         max-height: 34em;
