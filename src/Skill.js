@@ -15,7 +15,7 @@ import cplus from './images/c++.png';
 
 const Skill = () =>{
   return(
-    <div className = "skill">
+    <div className = "skill" id = "skill">
       <h1 className="text-center p-4">
       SKILLS
       </h1>
@@ -23,7 +23,7 @@ const Skill = () =>{
      <div className="container pb-5">
      <div className="card mb-3">
      <div className="card-header">
-       <h1>Frontend</h1>
+       <h3>Frontend</h3>
      </div>
      <div className="card-body">
        <blockquote className="blockquote mb-0">
@@ -52,7 +52,7 @@ const Skill = () =>{
 
    <div className="card">
    <div className="card-header">
-     <h1>General Purpose</h1>
+     <h3>General Purpose</h3>
    </div>
    <div className="card-body">
      <blockquote className="blockquote mb-0">
@@ -78,7 +78,7 @@ const Skill = () =>{
 
  <div className="card">
  <div className="card-header">
-   <h1>Backend</h1>
+   <h3>Backend</h3>
  </div>
  <div className="card-body">
    <blockquote className="blockquote mb-0">
