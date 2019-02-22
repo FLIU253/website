@@ -1,49 +1,120 @@
 import React from 'react';
 import './Project.css';
+import shoppingCart from './images/shopping-cart.png';
+import spotifyClone from './images/spotify-clone.png';
+import animeClient from './images/anime-client.png';
 
-const Project = () => {
-  return(
-    <div>
-    <h1 className="text-center p-1" id = "project">
-    PROJECTS
-    </h1>
+class Project extends React.Component{
 
-   <div className="container pb-4">
-   <div className="card-deck">
-   <div className="card">
-     <img className="card-img-top" src="..." alt="Card cap"/>
-     <div className="card-body">
-       <h5 className="card-title">Card title</h5>
-       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     </div>
-     <div className="card-footer">
-       <small className="text-muted">Last updated 3 mins ago</small>
-     </div>
-   </div>
-   <div className="card">
-     <img className="card-img-top" src="..." alt="Card cap"/>
-     <div className="card-body">
-       <h5 className="card-title">Card title</h5>
-       <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-     </div>
-     <div className="card-footer">
-       <small className="text-muted">Last updated 3 mins ago</small>
-     </div>
-   </div>
-   <div className="card">
-     <img className="card-img-top" src="..." alt="Card cap"/>
-     <div className="card-body">
-       <h5 className="card-title">Card title</h5>
-       <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-     </div>
-     <div className="card-footer">
-       <small className="text-muted">Last updated 3 mins ago</small>
-     </div>
-   </div>
- </div>
- </div>
+  constructor(props) {
+    super(props);
+    this.handleSpotifyMouseHover = this.handleSpotifyMouseHover.bind(this);
+    this.handleShoppingCartMouseHover = this.handleShoppingCartMouseHover.bind(this);
+    this.handleAnimeClientMouseHover=this.handleAnimeClientMouseHover.bind(this);
 
-    </div>
-  );
+    this.state = {
+      isSpotifyHover: false,
+      isShoppingCartHover: false,
+      isAnimeClientHover: false,
+      hover: true
+    };
+  }
+
+  handleShoppingCartMouseHover(){
+    this.setState(this.toggleShoppingCartHoverState);
+  }
+  handleSpotifyMouseHover() {
+    this.setState(this.toggleSpotifyHoverState);
+  }
+  handleAnimeClientMouseHover(){
+    this.setState(this.toggleAnimeClientHoverState);
+  }
+  toggleSpotifyHoverState(state) {
+    return {
+      isSpotifyHover: !state.isSpotifyHover
+    };
+  }
+  toggleShoppingCartHoverState(state){
+    return{
+      isShoppingCartHover: !state.isShoppingCartHover
+    };
+  }
+  toggleAnimeClientHoverState(state){
+    return{
+      isAnimeClientHover: !state.isAnimeClientHover
+    };
+  }
+  render() {
+
+    return( <div>
+      <h1 className="text-center p-1" id = "project">
+      PROJECTS
+      </h1>
+  
+      <div className = "container pb-4">
+      <div className = "row">
+      <div className = "col">
+      <div className="card">
+      <img className="card-img" src={shoppingCart} alt="Card cap" onMouseEnter={this.handleShoppingCartMouseHover} onMouseLeave={this.handleShoppingCartMouseHover}/>
+      {
+        this.state.isShoppingCartHover &&       
+        <div className="card-body">
+        <h5 className="card-title">Shopping Cart</h5>
+        <ul className="card-text">
+        <p>Bulit With:</p>
+        <li>Angular 4 with Bootstrap</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Express</li>
+        </ul>
+        </div>
+      }
+      </div>
+      </div>
+      <div className = "col">
+      <div className="card">
+      <img className="card-img" src={spotifyClone} alt="Card cap" 
+      onMouseEnter={this.handleSpotifyMouseHover} onMouseLeave={this.handleSpotifyMouseHover}/>
+      {
+        this.state.isSpotifyHover && 
+        <div className="card-body">
+       <h5 className="card-title">Spotify Clone</h5>
+       <ul className="card-text">
+       <p>Bulit With:</p>
+       <li>Pure JavaScript</li>
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>mySQL</li>
+       </ul>
+     </div>
+
+      }
+      </div>
+      </div>
+      <div className = "col">
+      <div className="card">
+      <img className="card-img" src={animeClient} alt="Card cap" 
+      onMouseEnter={this.handleAnimeClientMouseHover} onMouseLeave={this.handleAnimeClientMouseHover}/>
+       {
+        this.state.isAnimeClientHover && 
+        <div className="card-body">
+         <h5 className="card-title">Anime Client</h5>
+         <ul className="card-text">
+         <p>Bulit With:</p>
+         <li>React.js</li>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>Kitsu Anime API</li>
+         </ul>
+       </div>
+
+      }
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      </div>);
+  }
 }
 export default Project;

@@ -30,20 +30,27 @@ const Skill = () =>{
          <div className="container">
          <div className="row">
          <div className="col">
-          <img src={CSS} alt="Bootstrap logo"/>
+          <img className = "skillPic" src={CSS} alt="Bootstrap logo"/>
          </div>
          <div className="col">
-         <img src={HTML5} alt="HTML5 logo"/>
+         <img className = "skillPic" src={HTML5} alt="HTML5 logo"/>
          </div>
          <div className="col">
-         <img src={BLOGO} alt="bootstrap logo"/>
+         <img className = "skillPic" src={BLOGO} alt="bootstrap logo"/>
          </div>
          <div className="col">
-         <img src={RLogo} alt="react logo"/>
+         <img  className = "skillPic" src={RLogo} alt="react logo"/>
          </div>
          <div className="col">
-         <img src={angular} alt="angular logo"/>
+         <img className = "skillPic" src={angular} alt="angular logo"/>
          </div>
+         </div>
+         <div className="row">
+         <div className="col">CSS</div>
+         <div className="col">HTML5</div>
+         <div className="col">BOOTSTRAP</div>
+         <div className="col">REACT</div>
+         <div className="col">ANGULAR</div>
          </div>
          </div>
        </blockquote>
@@ -59,17 +66,23 @@ const Skill = () =>{
        <div className="container">
        <div className="row">
        <div className="col">
-       <img src={java} alt="java logo"/>
+       <img className = "skillPic" src={java} alt="java logo"/>
        </div>
        <div className="col">
-       <img src={javascript} alt="javascript logo"/>
+       <img className = "skillPic" src={javascript} alt="javascript logo"/>
        </div>
        <div className="col">
-       <img src={python} alt="python logo"/>
+       <img className = "skillPic" src={python} alt="python logo"/>
        </div>
        <div className="col">
-       <img src={cplus} alt="c++ logo"/>
+       <img className = "skillPic" src={cplus} alt="c++ logo"/>
        </div>
+       </div>
+       <div className="row">
+       <div className="col">JAVA</div>
+       <div className="col">JAVASCRIPT</div>
+       <div className="col">PYTHON</div>
+       <div className="col">C++</div>
        </div>
        </div>
      </blockquote>
@@ -85,14 +98,19 @@ const Skill = () =>{
      <div className="container">
      <div className="row">
      <div className="col">
-     <img src={node} alt="node logo"/>
+     <img className = "skillPic" src={node} alt="node logo"/>
      </div>
      <div className="col">
-     <img src={mysql} alt="mysql logo"/>
+     <img className = "skillPic" src={mysql} alt="mysql logo"/>
      </div>
      <div className="col">
-     <img src={mongodb} alt="mongodb logo"/>
+     <img className = "skillPic" src={mongodb} alt="mongodb logo"/>
      </div>
+     </div>
+     <div className="row">
+     <div className="col">Node.Js</div>
+     <div className="col">MySQL</div>
+     <div className="col">MongoDB</div>
      </div>
      </div>
    </blockquote>
