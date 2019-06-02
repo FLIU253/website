@@ -1,4 +1,11 @@
-.card-img{
+.card-img {
     max-height: 500px;
     max-width: 500px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.shopping-cart-title {
+    text-align: center;
+
 }

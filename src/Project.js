@@ -28,7 +28,18 @@ class Project extends React.Component {
                   modal
                   closeOnDocumentClick
                 >
-                  <span> Modal content </span>
+                  <span>
+                    {" "}
+                    <h1 className="shopping-cart-title">Shopping Cart</h1>
+                    <h5>Built With:</h5>
+                    <ul>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>MongoDB</li>
+                    </ul>
+                    <h5>Description:</h5>
+                  </span>
                 </Popup>
               </div>
             </div>
@@ -45,7 +56,20 @@ class Project extends React.Component {
                   modal
                   closeOnDocumentClick
                 >
-                  <span> Modal content </span>
+                  <span>
+                    {" "}
+                    <h1 className="shopping-cart-title">
+                      Simple Spotify Clone
+                    </h1>
+                    <h5>Built With:</h5>
+                    <ul>
+                      <li>Vanilla Javascript</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>MySQL</li>
+                    </ul>{" "}
+                    <h5>Description:</h5>
+                  </span>
                 </Popup>
               </div>
             </div>
@@ -62,7 +86,17 @@ class Project extends React.Component {
                   modal
                   closeOnDocumentClick
                 >
-                  <span> Modal content </span>
+                  <span>
+                    {" "}
+                    <h1 className="shopping-cart-title">React Anime List</h1>
+                    <h5>Built With:</h5>
+                    <ul>
+                      <li>React</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </ul>{" "}
+                    <h5>Description:</h5>
+                  </span>
                 </Popup>
               </div>
             </div>

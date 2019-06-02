@@ -12,6 +12,7 @@ body {
   background-color: #2F2FA2;
   background-size: cover;
   font-family: 'Righteous', cursive;
+  position: relative;
 }
 
 .center {
