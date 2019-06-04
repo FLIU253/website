@@ -8,18 +8,18 @@ class Experience extends Component {
     return (
       <div className="experience">
           <div className = "container"> 
-         <h1 className="text-center p-4">
-         EXPERIENCE
+         <h1 className="text-center p-4" data-aos="zoom-out-down">
+         Here is What I have Done So Far
       </h1>
       <div className = "experience-container">
       <div>
-       <img className ="autodata-logo" src = {autodata} alt = "autodata logo"></img>
+       <img className ="autodata-logo" src = {autodata} alt = "autodata logo" data-aos="zoom-out-down"></img>
       </div>
-      <div className = "text-center">
+      <div className = "text-left" data-aos="zoom-out-down">
         <p>May 7th, 2019 - August 28th, 2019</p>
-        <h4>Autodata Solutions</h4>
-        <h5>QA Automation Analyst</h5>
-        <p>100 Dundas St suite 500, London, ON N6A 5B6</p>
+        <h3 style = {{color: "#3377CC"}} >Autodata Solutions</h3>
+        <h5 style = {{color: "#5E9516"}}>QA Automation Analyst</h5>
+        <p style = {{fontWeight: "bold"}}>100 Dundas St suite 500, London, ON N6A 5B6</p>
         <p className = "description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -31,13 +31,13 @@ class Experience extends Component {
 
       <div className = "experience-container mt-5">
       <div>
-       <img className ="western-logo" src = {western} alt = "western logo"></img>
+       <img className ="western-logo" src = {western} alt = "western logo" data-aos="zoom-out-down"></img>
       </div>
-      <div className = "text-center">
+      <div className = "text-left" data-aos="zoom-out-down">
         <p>May 2nd, 2018 - April 29th, 2019</p>
-        <h4>Western Technology Services</h4>
-        <h5>Instructional Technology Resoure Centre Consultant</h5>
-        <p>100 Dundas St suite 500, London, ON N6A 5B6</p>
+        <h3 style = {{color: "#3377CC"}}>Western Technology Services</h3>
+        <h5 style = {{color: "#5E9516"}}>Instructional Technology Resoure Centre Consultant</h5>
+        <p style = {{fontWeight: "bold"}}>100 Dundas St suite 500, London, ON N6A 5B6</p>
         <p className = "description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 

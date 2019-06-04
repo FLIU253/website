@@ -8,8 +8,17 @@ import Project from "./Project";
 import Skill from "./Skill";
 import Education from "./Education";
 import Footer from "./Footer";
+import AOS from 'aos';
+import '../node_modules/aos/dist/aos.css'; 
 
 class App extends Component {
+  
+  componentDidMount(){
+    AOS.init();
+  }
+  componentWillReceiveProps(){
+    AOS.refresh();
+  }
   render() {
     return (
       <div>

@@ -54,9 +54,9 @@ class Skill extends Component {
         <div className="container pb-5 skills-container">
           <div> <h1 className="text-left p-4">SKILLS</h1></div>
           <div>
-          <div className="card-style mb-5 mt-4">
-            <div className="skills-card card-header">
-              <h3 onClick={this.developmentCollapsePressed}>Languages</h3>
+          <div className="card-style mb-2 mt-4"data-aos="fade-down" data-aos-duration="1000">
+            <div onClick={this.developmentCollapsePressed}className="skills-card card-header">
+              <h5>Languages</h5>
             </div>
             {this.state.developmentCollapse ? (    <div className="card-body" className = {this.state.developmentCollapse ? 
                 'dropdown-visible' : 'dropdown-not-visible'} >
@@ -105,9 +105,9 @@ class Skill extends Component {
               </div>): null}
           </div>
 
-          <div className="card-style mb-5">
-            <div className="skills-card card-header">
-              <h3 onClick={this.uiUxCollapsePressed}>UI/UX/Frameworks</h3>
+          <div className="card-style mb-2" data-aos="fade-down" data-aos-duration="1000">
+            <div onClick={this.uiUxCollapsePressed} className="skills-card card-header">
+              <h5 >UI/UX/Frameworks</h5>
             </div>
             {this.state.uiUxCollapse  ? (
               <div className="card-body"  className = {this.state.uiUxCollapse ? 
@@ -162,9 +162,9 @@ class Skill extends Component {
             ) : null}
           </div>
 
-          <div className="card-style mb-5">
-            <div className="skills-card card-header">
-              <h3 onClick={this.peopleSkillCollapsePressed}>People Skills</h3>
+          <div className="card-style mb-2" data-aos="fade-down" data-aos-duration="1000">
+            <div onClick={this.peopleSkillCollapsePressed} className="skills-card card-header">
+              <h5 >People Skills</h5>
             </div>
             {this.state.peopleSkillCollapse === true ? (
               <div className="card-body"  className = {this.state.peopleSkillCollapse ? 
@@ -195,9 +195,9 @@ class Skill extends Component {
             ) : null}
           </div>
          
-          <div className="card-style mb-5">
-            <div className="skills-card card-header">
-              <h3 onClick={this.otherSoftwareCollapsePressed}>Other Software Skills</h3>
+          <div className="card-style mb-3" data-aos="fade-down" data-aos-duration="1000">
+            <div onClick={this.otherSoftwareCollapsePressed} className="skills-card card-header">
+              <h5 >Other Software Skills</h5>
             </div>
             {this.state.otherSoftwareCollapse === true ? (
               <div className="card-body"  className = {this.state.otherSoftwareCollapse ? 

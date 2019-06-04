@@ -4,14 +4,48 @@ import shoppingCart from "./images/shopping-cart.png";
 import spotifyClone from "./images/spotify-clone.png";
 import animeClient from "./images/anime-client.png";
 import Popup from "reactjs-popup";
+import Modal from 'react-awesome-modal';
 
 class Project extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+        visible : false
+    }
+}
+
+openModal() {
+    this.setState({
+        visible : true
+    });
+}
+
+closeModal() {
+    this.setState({
+        visible : false
+    });
+}
+
+
   render() {
     return (
-      <div>
+      <div className = "project">
         <h1 className="text-center p-1" id="project">
           PROJECTS
         </h1>
+
+
+        <h1>React-Modal Examples</h1>
+                <input type="button" value="Open" onClick={() => this.openModal()} />
+                <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                    <div>
+                        <h1>Title</h1>
+                        <p>Some Contents</p>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    </div>
+                </Modal>
+
 
         <div className="container pb-4">
          <div className = "project-grid">
@@ -23,10 +57,13 @@ class Project extends React.Component {
                       className="card-img"
                       src={spotifyClone}
                       alt="Card cap"
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
                     />
                   }
                   modal
                   closeOnDocumentClick
+                  className = "popup"
                 >
                   <span>
                     {" "}
@@ -52,6 +89,8 @@ class Project extends React.Component {
                       className="card-img"
                       src={animeClient}
                       alt="Card cap"
+                      data-aos="fade-left"
+                      data-aos-duration="1000"
                     />
                   }
                   modal
@@ -80,6 +119,8 @@ class Project extends React.Component {
                       className="card-img"
                       src={shoppingCart}
                       alt="Card cap"
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
                     />
                   }
                   modal

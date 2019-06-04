@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () =>{
   return(
-    <div>
+    <div data-aos="slide-up">
       <footer className="footer" id = "contact">
       <h1 className="pt-4">CONTACT</h1>
         <div className="container">

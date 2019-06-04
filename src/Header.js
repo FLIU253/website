@@ -23,7 +23,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header className="header-navbar" id="navbar">
+      <header className="header-navbar" id="navbar" data-aos="zoom-in">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <button
             className="navbar-toggler"

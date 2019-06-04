@@ -12,9 +12,13 @@
   cursor: pointer;
 }
 .card-style{
-  width: 80%;
+  width: 60%;
   float: right;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 10px;
 }
+
 .dropdown-visible{
   margin-top: 10px;
   animation: fade-in 1s;

@@ -3,7 +3,7 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="content" id="about">
+    <div className="content" id="about" data-aos="fade-right">
       <h1 className="text-center">ABOUT</h1>
       <div className="container text-center">
         <div className="row pt-4">
@@ -12,18 +12,18 @@ const About = () => {
             <span>Passionate</span>
           </div>
           <div className="col">
-            <i className="fas fa-users" />
+            <i className="fas fa-users"  data-aos="fade-right"/>
             <span>Team-Oriented</span>
           </div>
         </div>
 
         <div className="row pt-4">
           <div className="col">
-            <i className="fas fa-brain" />
+            <i className="fas fa-brain" data-aos="fade-right"/>
             <span>Open-Minded</span>
           </div>
           <div className="col">
-            <i className="fas fa-clipboard-check" />
+            <i className="fas fa-clipboard-check" data-aos="fade-right"/>
             <span>Problem-Solver</span>
           </div>
         </div>

@@ -1,6 +1,8 @@
 .experience{
-  background-color: #f5f5f5;
+  background-color: #eeeeee;
   width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 5em 0;
 }
 .experience-container{
   display: grid;
