@@ -105,13 +105,14 @@ class Skill extends Component {
               </div>): null}
           </div>
 
-          <div className="card card-style mb-5">
+          <div className="card-style mb-5">
             <div className="skills-card card-header">
               <h3 onClick={this.uiUxCollapsePressed}>UI/UX/Frameworks</h3>
             </div>
-            {this.state.uiUxCollapse === true ? (
-              <div className="card-body">
-                <blockquote className="blockquote mb-0">
+            {this.state.uiUxCollapse  ? (
+              <div className="card-body"  className = {this.state.uiUxCollapse ? 
+                'dropdown-visible' : 'dropdown-not-visible'} >
+                <blockquote>
                   <div className="container">
                     <div className="row">
                       <div className="col">
@@ -161,12 +162,13 @@ class Skill extends Component {
             ) : null}
           </div>
 
-          <div className="card card-style mb-5">
+          <div className="card-style mb-5">
             <div className="skills-card card-header">
               <h3 onClick={this.peopleSkillCollapsePressed}>People Skills</h3>
             </div>
             {this.state.peopleSkillCollapse === true ? (
-              <div className="card-body">
+              <div className="card-body"  className = {this.state.peopleSkillCollapse ? 
+                'dropdown-visible' : 'dropdown-not-visible'} >
                 <blockquote className="blockquote mb-0">
                   <div className="container">
                     <div className="row">
@@ -193,12 +195,13 @@ class Skill extends Component {
             ) : null}
           </div>
          
-          <div className="card card-style mb-5">
+          <div className="card-style mb-5">
             <div className="skills-card card-header">
               <h3 onClick={this.otherSoftwareCollapsePressed}>Other Software Skills</h3>
             </div>
             {this.state.otherSoftwareCollapse === true ? (
-              <div className="card-body">
+              <div className="card-body"  className = {this.state.otherSoftwareCollapse ? 
+                'dropdown-visible' : 'dropdown-not-visible'} >
                 <blockquote className="blockquote mb-0">
                   <div className="container">
                     <div className="row">
