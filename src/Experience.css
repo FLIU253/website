@@ -16,6 +16,7 @@
   border: 5px solid #ddd;
   border-radius: 20px;
   padding: 5px;
+  transition: all .4s ease-in-out;
 }
 
 .autodata-logo:hover{
@@ -58,6 +59,7 @@
   width: 50%;
   border-radius: 20px;
   padding: 5px;
+  transition: all .4s ease-in-out;
 }
 
 .western-logo:hover{

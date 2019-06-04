@@ -54,13 +54,13 @@ class Skill extends Component {
         <div className="container pb-5 skills-container">
           <div> <h1 className="text-left p-4">SKILLS</h1></div>
           <div>
-          <div className="card card-style mb-5 mt-4">
+          <div className="card-style mb-5 mt-4">
             <div className="skills-card card-header">
               <h3 onClick={this.developmentCollapsePressed}>Languages</h3>
             </div>
-            {this.state.developmentCollapse === true ? (
-              <div className="card-body">
-                <blockquote className="blockquote mb-0">
+            {this.state.developmentCollapse ? (    <div className="card-body" className = {this.state.developmentCollapse ? 
+                'dropdown-visible' : 'dropdown-not-visible'} >
+                <blockquote>
                   <div className="container">
                     <div className="row">
                       <div className="col">
@@ -102,8 +102,7 @@ class Skill extends Component {
                     </div>
                   </div>
                 </blockquote>
-              </div>
-            ) : null}
+              </div>): null}
           </div>
 
           <div className="card card-style mb-5">

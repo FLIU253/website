@@ -14,38 +14,9 @@ class Project extends React.Component {
         </h1>
 
         <div className="container pb-4">
-          <div className="row">
-            <div className="col">
-              <div className="card">
-                <Popup
-                  trigger={
-                    <img
-                      className="card-img"
-                      src={shoppingCart}
-                      alt="Card cap"
-                    />
-                  }
-                  modal
-                  closeOnDocumentClick
-                >
-                  <span>
-                    {" "}
-                    <h1 className="shopping-cart-title">Shopping Cart</h1>
-                    <h5>Built With:</h5>
-                    <ul>
-                      <li>Angular</li>
-                      <li>Node.js</li>
-                      <li>Express.js</li>
-                      <li>MongoDB</li>
-                    </ul>
-                    <h5>Description:</h5>
-                    <div>A simple shopping cart application</div>
-                  </span>
-                </Popup>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
+         <div className = "project-grid">
+
+              <div>
                 <Popup
                   trigger={
                     <img
@@ -74,9 +45,7 @@ class Project extends React.Component {
                   </span>
                 </Popup>
               </div>
-            </div>
-            <div className="col">
-              <div className="card">
+              <div>
                 <Popup
                   trigger={
                     <img
@@ -104,8 +73,37 @@ class Project extends React.Component {
                   </span>
                 </Popup>
               </div>
-            </div>
+              <div>
+                <Popup
+                  trigger={
+                    <img
+                      className="card-img"
+                      src={shoppingCart}
+                      alt="Card cap"
+                    />
+                  }
+                  modal
+                  closeOnDocumentClick
+                >
+                  <span>
+                    {" "}
+                    <h1 className="shopping-cart-title">Shopping Cart</h1>
+                    <h5>Built With:</h5>
+                    <ul>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>MongoDB</li>
+                    </ul>
+                    <h5>Description:</h5>
+                    <div>A simple shopping cart application</div>
+                  </span>
+                </Popup>
+              </div>
+              
           </div>
+              
+          
         </div>
       </div>
     );
