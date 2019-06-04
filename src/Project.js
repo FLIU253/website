@@ -39,6 +39,7 @@ class Project extends React.Component {
                       <li>MongoDB</li>
                     </ul>
                     <h5>Description:</h5>
+                    <div>A simple shopping cart application</div>
                   </span>
                 </Popup>
               </div>
@@ -69,6 +70,7 @@ class Project extends React.Component {
                       <li>MySQL</li>
                     </ul>{" "}
                     <h5>Description:</h5>
+                    <div>A simple Spotify inspired music client</div>
                   </span>
                 </Popup>
               </div>
@@ -96,6 +98,9 @@ class Project extends React.Component {
                       <li>CSS</li>
                     </ul>{" "}
                     <h5>Description:</h5>
+                    <div>Using the Kitsu anime API, a simple client where you can search for 
+                      certain animes
+                    </div>
                   </span>
                 </Popup>
               </div>

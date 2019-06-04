@@ -8,6 +8,20 @@
   max-width: 100px;
 }
 
-.card-header {
+.skills-card {
   cursor: pointer;
+}
+.card-style{
+  width: 80%;
+  float: right;
+}
+
+.buttons{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills-container{
+  display: grid;
+  grid-template-columns: 200px auto;
 }

@@ -19,7 +19,8 @@ class Skill extends Component {
     this.state = {
       developmentCollapse: false,
       peopleSkillCollapse: false,
-      uiUxCollapse: false
+      uiUxCollapse: false,
+      otherSoftwareCollapse: false
     };
   }
 
@@ -41,15 +42,21 @@ class Skill extends Component {
     });
   };
 
+  otherSoftwareCollapsePressed = () => {
+    this.setState({
+      otherSoftwareCollapse: !this.state.otherSoftwareCollapse
+    })
+  }
+
   render() {
     return (
       <div className="skill" id="skill">
-        <h1 className="text-center p-4">SKILLS</h1>
-
-        <div className="container pb-5">
-          <div className="card mb-3">
-            <div className="card-header">
-              <h3 onClick={this.developmentCollapsePressed}>Frameworks</h3>
+        <div className="container pb-5 skills-container">
+          <div> <h1 className="text-left p-4">SKILLS</h1></div>
+          <div>
+          <div className="card card-style mb-5 mt-4">
+            <div className="skills-card card-header">
+              <h3 onClick={this.developmentCollapsePressed}>Languages</h3>
             </div>
             {this.state.developmentCollapse === true ? (
               <div className="card-body">
@@ -59,30 +66,38 @@ class Skill extends Component {
                       <div className="col">
                         <img
                           className="skillPic"
-                          src={BLOGO}
-                          alt="bootstrap logo"
+                          src={javascript}
+                          alt="javascript logo"
                         />
-                        <div className="col">BOOTSTRAP</div>
+                        <div className="col">JavaScript</div>
                       </div>
                       <div className="col">
                         <img
                           className="skillPic"
-                          src={RLogo}
-                          alt="react logo"
+                          src={java}
+                          alt="java logo"
                         />
-                        <div className="col">REACT</div>
+                        <div className="col">Java</div>
                       </div>
                       <div className="col">
                         <img
                           className="skillPic"
-                          src={angular}
-                          alt="angular logo"
+                          src={HTML5}
+                          alt="html5 logo"
                         />
-                        <div className="col">ANGULAR</div>
+                        <div className="col">HTML 5</div>
                       </div>
                       <div className="col">
-                        <img className="skillPic" src={node} alt="node logo" />
-                        <div className="col">Node.Js</div>
+                        <img className="skillPic" src={python} alt="python logo" />
+                        <div className="col">Python</div>
+                      </div>
+                      <div className="col">
+                        <img className="skillPic" src={cplus} alt="c++ logo" />
+                        <div className="col">C++</div>
+                      </div>
+                      <div className="col">
+                        <img className="skillPic" src={mysql} alt="SQL logo" />
+                        <div className="col">SQL</div>
                       </div>
                     </div>
                   </div>
@@ -91,9 +106,9 @@ class Skill extends Component {
             ) : null}
           </div>
 
-          <div className="card mb-3">
-            <div className="card-header">
-              <h3 onClick={this.uiUxCollapsePressed}>Languages</h3>
+          <div className="card card-style mb-5">
+            <div className="skills-card card-header">
+              <h3 onClick={this.uiUxCollapsePressed}>UI/UX/Frameworks</h3>
             </div>
             {this.state.uiUxCollapse === true ? (
               <div className="card-body">
@@ -101,28 +116,28 @@ class Skill extends Component {
                   <div className="container">
                     <div className="row">
                       <div className="col">
-                        <img className="skillPic" src={java} alt="java logo" />
-                        <div className="col">JAVA</div>
+                        <img className="skillPic" src={BLOGO} alt="bootstrap logo" />
+                        <div className="col">Bootstrap</div>
                       </div>
                       <div className="col">
                         <img
                           className="skillPic"
-                          src={javascript}
-                          alt="javascript logo"
+                          src={RLogo}
+                          alt="react logo"
                         />
-                        <div className="col">JAVASCRIPT</div>
+                        <div className="col">React</div>
                       </div>
                       <div className="col">
                         <img
                           className="skillPic"
-                          src={python}
-                          alt="python logo"
+                          src={angular}
+                          alt="angular logo"
                         />
-                        <div className="col">PYTHON</div>
+                        <div className="col">Angular</div>
                       </div>
                       <div className="col">
-                        <img className="skillPic" src={cplus} alt="c++ logo" />
-                        <div className="col">C++</div>
+                        <img className="skillPic" src={node} alt="Nodejs logo" />
+                        <div className="col">Nodejs</div>
                       </div>
                       <div className="col">
                         <img
@@ -147,9 +162,9 @@ class Skill extends Component {
             ) : null}
           </div>
 
-          <div className="card">
-            <div className="card-header">
-              <h3 onClick={this.peopleSkillCollapsePressed}>Backend</h3>
+          <div className="card card-style mb-5">
+            <div className="skills-card card-header">
+              <h3 onClick={this.peopleSkillCollapsePressed}>People Skills</h3>
             </div>
             {this.state.peopleSkillCollapse === true ? (
               <div className="card-body">
@@ -177,6 +192,40 @@ class Skill extends Component {
                 </blockquote>
               </div>
             ) : null}
+          </div>
+         
+          <div className="card card-style mb-5">
+            <div className="skills-card card-header">
+              <h3 onClick={this.otherSoftwareCollapsePressed}>Other Software Skills</h3>
+            </div>
+            {this.state.otherSoftwareCollapse === true ? (
+              <div className="card-body">
+                <blockquote className="blockquote mb-0">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col">
+                        <img
+                          className="skillPic"
+                          src={mysql}
+                          alt="mysql logo"
+                        />
+                        <div className="col">MySQL</div>
+                      </div>
+                      <div className="col">
+                        <img
+                          className="skillPic"
+                          src={mongodb}
+                          alt="mongodb logo"
+                        />
+                        <div className="col">MongoDB</div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            ) : null}
+          </div>
+
           </div>
         </div>
       </div>
