@@ -29,6 +29,8 @@ closeModal() {
 
 
   render() {
+
+    
     return (
       <div className = "project">
         <h1 className="text-center p-1" id="project">
@@ -36,36 +38,21 @@ closeModal() {
         </h1>
 
 
-        <h1>React-Modal Examples</h1>
-                <input type="button" value="Open" onClick={() => this.openModal()} />
-                <Modal visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
-                    <div>
-                        <h1>Title</h1>
-                        <p>Some Contents</p>
-                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
-                    </div>
-                </Modal>
-
-
         <div className="container pb-4">
          <div className = "project-grid">
 
               <div>
-                <Popup
-                  trigger={
-                    <img
+                      <img
                       className="card-img"
                       src={spotifyClone}
                       alt="Card cap"
                       data-aos="fade-right"
                       data-aos-duration="1000"
+                      onClick={() => this.openModal()}
                     />
-                  }
-                  modal
-                  closeOnDocumentClick
-                  className = "popup"
-                >
-                  <span>
+                <Modal visible={this.state.visible} width="800" height="600" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                    <div>
+                    <span>
                     {" "}
                     <h1 className="shopping-cart-title">
                       Simple Spotify Clone
@@ -80,7 +67,9 @@ closeModal() {
                     <h5>Description:</h5>
                     <div>A simple Spotify inspired music client</div>
                   </span>
-                </Popup>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    </div>
+                </Modal>
               </div>
               <div>
                 <Popup
