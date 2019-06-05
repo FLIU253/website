@@ -78,15 +78,6 @@ class Header extends Component {
                 <AnchorLink
                   className="nav-link"
                   offset={() => 100}
-                  href="#education"
-                >
-                  Education
-                </AnchorLink>
-              </li>
-              <li className="nav-item active">
-                <AnchorLink
-                  className="nav-link"
-                  offset={() => 100}
                   href="#contact"
                 >
                   Contact

@@ -3,7 +3,6 @@ import "./Project.css";
 import shoppingCart from "./images/shopping-cart.png";
 import spotifyClone from "./images/spotify-clone.png";
 import animeClient from "./images/anime-client.png";
-import Popup from "reactjs-popup";
 import Modal from 'react-awesome-modal';
 
 class Project extends React.Component {
@@ -27,14 +26,19 @@ closeModal() {
     });
 }
 
-
+keyPressed(e){
+  if(e.keyCode === 13){
+    console.log('value', e.target.value);
+    // put the login here
+ }
+}
   render() {
 
     
     return (
       <div className = "project">
-        <h1 className="text-center p-1" id="project">
-          PROJECTS
+        <h1 className="text-center p-1 mb-5 project-title" id="project">
+          <strong>My Personal Work</strong>
         </h1>
 
 
@@ -50,7 +54,7 @@ closeModal() {
                       data-aos-duration="1000"
                       onClick={() => this.openModal()}
                     />
-                <Modal visible={this.state.visible} width="800" height="600" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                <Modal visible={this.state.visible} width="800" height="600" effect="fadeInUp"  onKeyDown={this.keyPress} onClickAway={() => this.closeModal()}>
                     <div>
                     <span>
                     {" "}
@@ -72,20 +76,17 @@ closeModal() {
                 </Modal>
               </div>
               <div>
-                <Popup
-                  trigger={
-                    <img
+                 <img
                       className="card-img"
                       src={animeClient}
                       alt="Card cap"
                       data-aos="fade-left"
                       data-aos-duration="1000"
+                      onClick={() => this.openModal()}
                     />
-                  }
-                  modal
-                  closeOnDocumentClick
-                >
-                  <span>
+                <Modal visible={this.state.visible} width="800" height="600" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                    <div>
+                    <span>
                     {" "}
                     <h1 className="shopping-cart-title">React Anime List</h1>
                     <h5>Built With:</h5>
@@ -99,23 +100,23 @@ closeModal() {
                       certain animes
                     </div>
                   </span>
-                </Popup>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    </div>
+                </Modal>
               </div>
+
               <div>
-                <Popup
-                  trigger={
-                    <img
-                      className="card-img"
+                 <img
+                     className="card-img"
                       src={shoppingCart}
                       alt="Card cap"
                       data-aos="fade-right"
                       data-aos-duration="1000"
+                      onClick={() => this.openModal()}
                     />
-                  }
-                  modal
-                  closeOnDocumentClick
-                >
-                  <span>
+                <Modal visible={this.state.visible} width="800" height="600" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                    <div>
+                    <span>
                     {" "}
                     <h1 className="shopping-cart-title">Shopping Cart</h1>
                     <h5>Built With:</h5>
@@ -128,9 +129,11 @@ closeModal() {
                     <h5>Description:</h5>
                     <div>A simple shopping cart application</div>
                   </span>
-                </Popup>
+                        <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
+                    </div>
+                </Modal>
               </div>
-              
+            
           </div>
               
           

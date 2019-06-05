@@ -18,15 +18,20 @@ const particlesOptions = {
 const Landing = () => {
   return (
     <div className="wrapper">
-      <Particles params = {particlesOptions}/>
+      <Particles params = {particlesOptions} style = {{position: 'absolute'}}/>
       <div className="menu-icon">
         <i className="fa fa-bars fa-2x" />
       </div>
       <div className="text-white text-center center">
         <h1>Hello, I'm Franklin Liu</h1>
-        <span>Software Engineering Student </span>
+       <div className="profile">
         <img src={PORTAIT} alt="portait" className="portait-img" data-aos = "flip-up"/>
-        <span>Aspiring Fullstack Web Developer</span>
+        <div>
+          <span className = "general-info">Software Engineering Student </span>
+          <br/>
+          <span className = "general-info">Aspiring Fullstack Web Developer</span>
+        </div>
+       </div>
       </div>
     </div>
   );

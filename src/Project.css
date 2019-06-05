@@ -1,5 +1,9 @@
 .project{
-    padding: 5em 5em;
+    padding: 5em 10em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.project-title{
+    font-family: 'Josefin Sans', sans-serif;
 }
 .card-img {
     max-height: 700px;

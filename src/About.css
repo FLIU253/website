@@ -6,7 +6,9 @@
   text-align: justify;
   font-family: 'Roboto Condensed', sans-serif;
 }
-
+.about-title{
+  font-family: 'Josefin Sans', sans-serif;
+}
 .progress-label {
   float: left;
   margin-right: 1em;

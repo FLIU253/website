@@ -4,7 +4,9 @@ import "./About.css";
 const About = () => {
   return (
     <div className="content" id="about" data-aos="fade-right">
-      <h1 className="text-center">ABOUT</h1>
+      <h1 className="text-center about-title">
+        <strong>About Me</strong>
+      </h1>
       <div className="container text-center">
         <div className="row pt-4">
           <div className="col">

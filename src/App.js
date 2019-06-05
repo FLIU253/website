@@ -6,8 +6,8 @@ import About from "./About";
 import Experience from "./Experience";
 import Project from "./Project";
 import Skill from "./Skill";
-import Education from "./Education";
 import Footer from "./Footer";
+import Interest from "./Interest";
 import AOS from 'aos';
 import '../node_modules/aos/dist/aos.css'; 
 
@@ -28,7 +28,7 @@ class App extends Component {
         <Experience />
         <Project />
         <Skill />
-        <Education />
+        <Interest/>
         <Footer />
       </div>
     );
