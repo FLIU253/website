@@ -66,24 +66,23 @@
   border-width: 10px;
   border-color: white;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
   justify-content: center;
   align-items: center;
 }
 
-span {
-  font-size: 25px;
-  margin: 0px 10px 0px;
-}
 .profile{
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  line-height: 1.5em;
+  line-height: 0.6em;
   text-align: left;
   left: 0;
   padding: 0 10em;
 }
-.general-info{
-  font-size: 20px;
+hr{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#fff;
 }

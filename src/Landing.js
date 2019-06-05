@@ -23,13 +23,19 @@ const Landing = () => {
         <i className="fa fa-bars fa-2x" />
       </div>
       <div className="text-white text-center center">
-        <h1>Hello, I'm Franklin Liu</h1>
+        <h1> <hr/>Hello, I'm Franklin Liu <hr/></h1>
        <div className="profile">
         <img src={PORTAIT} alt="portait" className="portait-img" data-aos = "flip-up"/>
-        <div>
-          <span className = "general-info">Software Engineering Student </span>
+        <div className = "ml-5">
+          <h3>Details</h3>
           <br/>
-          <span className = "general-info">Aspiring Fullstack Web Developer</span>
+          <p><strong>Name:</strong></p>
+          <p>Franklin Liu</p>
+          <p><strong>Age:</strong></p>
+          <p>Born July 3rd, 1998</p>
+          <p><strong>Location: </strong></p>
+          <p>Toronto, Ontario</p>
+          <p style = {{lineHeight: "1em"}}>Currently a software engineering student. Aspiring Fullstack Web Developer</p>
         </div>
        </div>
       </div>
