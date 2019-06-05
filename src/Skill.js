@@ -12,6 +12,9 @@ import java from "./images/Java.png";
 import javascript from "./images/javascript.png";
 import python from "./images/python.png";
 import cplus from "./images/c++.png";
+import json from "./images/json.png";
+import xml from "./images/xml.png";
+import git from "./images/git.png";
 
 class Skill extends Component {
   constructor(props) {
@@ -56,10 +59,10 @@ class Skill extends Component {
           <div >
           <div className="card-style mb-2 mt-4"data-aos="fade-down" data-aos-duration="1000">
             <div onClick={this.developmentCollapsePressed}className="skills-card card-header">
-              <h5><i className="fas fa-code" style = {{fontSize:"15px"}}></i>   Languages</h5>
+              <h5><i className="fas fa-code" style = {{fontSize:"15px"}}></i>   Development/Software</h5>
             </div>
             {this.state.developmentCollapse ? (    <div className="card-body" className = {this.state.developmentCollapse ? 
-                'dropdown-visible' : 'dropdown-not-visible'} >
+                'dropdown-visible text-center' : 'dropdown-not-visible'} >
                 <blockquote>
                   <div className="container">
                     <div className="row">
@@ -80,14 +83,6 @@ class Skill extends Component {
                         <div className="col">Java</div>
                       </div>
                       <div className="col">
-                        <img
-                          className="skillPic"
-                          src={HTML5}
-                          alt="html5 logo"
-                        />
-                        <div className="col">HTML 5</div>
-                      </div>
-                      <div className="col">
                         <img className="skillPic" src={python} alt="python logo" />
                         <div className="col">Python</div>
                       </div>
@@ -99,7 +94,32 @@ class Skill extends Component {
                         <img className="skillPic" src={mysql} alt="SQL logo" />
                         <div className="col">SQL</div>
                       </div>
+                      <div className="col">
+                        <img
+                          className="skillPic"
+                          src={json}
+                          alt="json logo"
+                        />
+                        <div className="col">JSON</div>
+                      </div>
+                      <div className="col">
+                        <img
+                          className="skillPic"
+                          src={xml}
+                          alt="xml logo"
+                        />
+                        <div className="col">XML</div>
+                        </div>
+                        <div className="col">
+                        <img
+                          className="skillPic"
+                          src={git}
+                          alt="git logo"
+                        />
+                        <div className="col">Git</div>
                     </div>
+                    </div>
+
                   </div>
                 </blockquote>
               </div>): null}
@@ -111,7 +131,7 @@ class Skill extends Component {
             </div>
             {this.state.uiUxCollapse  ? (
               <div className="card-body"  className = {this.state.uiUxCollapse ? 
-                'dropdown-visible' : 'dropdown-not-visible'} >
+                'dropdown-visible text-center' : 'dropdown-not-visible'} >
                 <blockquote>
                   <div className="container">
                     <div className="row">
@@ -164,63 +184,51 @@ class Skill extends Component {
 
           <div className="card-style mb-2" data-aos="fade-down" data-aos-duration="1000">
             <div onClick={this.peopleSkillCollapsePressed} className="skills-card card-header">
-              <h5><i className="fas fa-user-friends" style = {{fontSize:"15px"}}></i>   People Skills</h5>
+              <h5><i className="fas fa-user-friends" style = {{fontSize:"15px"}}></i>   Soft Skills</h5>
             </div>
             {this.state.peopleSkillCollapse === true ? (
               <div className="card-body"  className = {this.state.peopleSkillCollapse ? 
-                'dropdown-visible' : 'dropdown-not-visible'} >
-                <blockquote className="blockquote mb-0">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col">
-                        <img
-                          className="skillPic"
-                          src={mysql}
-                          alt="mysql logo"
-                        />
-                        <div className="col">MySQL</div>
-                      </div>
-                      <div className="col">
-                        <img
-                          className="skillPic"
-                          src={mongodb}
-                          alt="mongodb logo"
-                        />
-                        <div className="col">MongoDB</div>
-                      </div>
-                    </div>
+                'dropdown-visible text-center' : 'dropdown-not-visible'} >
+                <div className="container">
+                  <div className="row text-left">
+                    <ul>
+                      <li>
+                        Leadership
+                      </li>
+                      <li>
+                        Communication
+                      </li>
+                      <li>
+                        Responsible
+                      </li>
+                      <li>
+                        flexible
+                      </li>
+                    </ul>
                   </div>
-                </blockquote>
+                </div>
               </div>
             ) : null}
           </div>
          
           <div className="card-style mb-3" data-aos="fade-down" data-aos-duration="1000">
             <div onClick={this.otherSoftwareCollapsePressed} className="skills-card card-header">
-              <h5><i className="fas fa-caret-square-down" style = {{fontSize:"15px"}}></i>   Other Software Skills</h5>
+              <h5><i className="fas fa-caret-square-down" style = {{fontSize:"15px"}}></i>   Other Skills</h5>
             </div>
             {this.state.otherSoftwareCollapse === true ? (
               <div className="card-body"  className = {this.state.otherSoftwareCollapse ? 
-                'dropdown-visible' : 'dropdown-not-visible'} >
+                'dropdown-visible text-center' : 'dropdown-not-visible'} >
                 <blockquote className="blockquote mb-0">
                   <div className="container">
-                    <div className="row">
-                      <div className="col">
-                        <img
-                          className="skillPic"
-                          src={mysql}
-                          alt="mysql logo"
-                        />
-                        <div className="col">MySQL</div>
-                      </div>
-                      <div className="col">
-                        <img
-                          className="skillPic"
-                          src={mongodb}
-                          alt="mongodb logo"
-                        />
-                        <div className="col">MongoDB</div>
-                      </div>
+                    <div className="row text-left">
+                      <ul>
+                        <li>
+                            Quality Assurance
+                        </li>
+                        <li>
+                          Software Testing
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </blockquote>

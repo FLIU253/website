@@ -12,19 +12,13 @@ class Header extends Component {
   }
 
   handleScroll = event => {
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky");
-    } else {
-      navbar.classList.remove("sticky");
-    }
+    console.log("scrolling")
   };
 
   render() {
     return (
       <header className="header-navbar" id="navbar" data-aos="zoom-in">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg ">
           <button
             className="navbar-toggler"
             type="button"
@@ -43,6 +37,7 @@ class Header extends Component {
                   className="nav-link"
                   offset={() => 100}
                   href="#about"
+                  style = {{color: 'white'}}
                 >
                   About
                 </AnchorLink>
@@ -52,6 +47,7 @@ class Header extends Component {
                   className="nav-link"
                   offset={() => 100}
                   href="#experience"
+                  style = {{color: 'white'}}
                 >
                   Experience
                 </AnchorLink>
@@ -61,6 +57,7 @@ class Header extends Component {
                   className="nav-link"
                   offset={() => 100}
                   href="#project"
+                  style = {{color: 'white'}}
                 >
                   Projects
                 </AnchorLink>
@@ -70,6 +67,7 @@ class Header extends Component {
                   className="nav-link"
                   offset={() => 100}
                   href="#skill"
+                  style = {{color: 'white'}}
                 >
                   Skills
                 </AnchorLink>
@@ -79,6 +77,7 @@ class Header extends Component {
                   className="nav-link"
                   offset={() => 100}
                   href="#contact"
+                  style = {{color: 'white'}}
                 >
                   Contact
                 </AnchorLink>

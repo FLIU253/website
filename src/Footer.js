@@ -3,25 +3,29 @@ import './Footer.css';
 
 const Footer = () =>{
   return(
-    <div data-aos="slide-up">
-      <footer className="footer" id = "contact">
-      <h1 className="pt-4">CONTACT</h1>
+    <div data-aos="slide-up" id = "contact">
+      <footer className="footer">
+      <div className = "footer-info">
+      <h2 className="pt-4">Toronto Based</h2>
+      <p>Let's get in touch.</p>
+      <p>My email is: </p>
+      <p style = {{textDecoration: "underline"}}>franklin_liu3@hotmail.com</p>
+      </div>
         <div className="container">
         <div className="row p-5">
         <div className="col-3"></div>
         <div className="col-6">
-        <a href="https://www.facebook.com/franklin.liu3" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-3x p-3"></i></a>
-        <a href="https://www.instagram.com/franklin_liu3/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-3x p-3"></i></a>
-        <a href="https://www.linkedin.com/in/franklin-liu-199a00141/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x p-3"></i></a>
-        <a href="https://github.com/FLIU253" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-3x p-3"></i></a>
-        <a href="https://franklin_liu3@hotmail.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope-square fa-3x p-3"></i></a>
+        <a href="https://www.facebook.com/franklin.liu3" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook fa-3x p-3 footer-icon"></i></a>
+        <a href="https://www.instagram.com/franklin_liu3/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-3x p-3 footer-icon"></i></a>
+        <a href="https://www.linkedin.com/in/franklin-liu-199a00141/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x p-3 footer-icon"></i></a>
+        <a href="https://github.com/FLIU253" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square fa-3x p-3 footer-icon"></i></a>
         </div>
         <div className="col-3"></div>
         </div>
         </div>
       </footer>
       <div className="copyright">
-      <div className="footer-copyright text-center py-3 copy-text p-4">Franklin Liu © 2018 Copyright
+      <div className="footer-copyright text-center py-3 copy-text p-4">Franklin Liu © 2019 Copyright
     </div>
       </div>
     </div>

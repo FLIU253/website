@@ -23,8 +23,8 @@ const Landing = () => {
         <i className="fa fa-bars fa-2x" />
       </div>
       <div className="text-white text-center center">
-        <h1> <hr/>Hello, I'm Franklin Liu <hr/></h1>
-       <div className="profile">
+        <h1 data-aos="zoom-in"> <hr/>Hello, I'm Franklin Liu <hr/></h1>
+       <div className="profile" data-aos="zoom-in">
         <img src={PORTAIT} alt="portait" className="portait-img" data-aos = "flip-up"/>
         <div className = "ml-5">
           <h3>Details</h3>
