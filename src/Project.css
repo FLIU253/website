@@ -18,6 +18,8 @@
     display: grid;
     column-count: 2;
     grid-template-columns:repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
 }
 .shopping-cart-title {
     text-align: center;

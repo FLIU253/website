@@ -31,9 +31,9 @@ const About = () => {
         </div>
         <div className="row pt-4 text-center">
           <div className="col-1" />
-          <div className="col-10">
+          <div className="col-10 p-5">
             A software engineering student with a strong passion for web
-            development.
+            development and entrepreneurship.
           </div>
           <div className="col-1" />
         </div>
