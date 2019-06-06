@@ -32,7 +32,7 @@ class Project extends React.Component {
 
   render() {
     return (
-      <div className="project">
+      <div className="project" id = "#project">
         <h1 className="text-center p-1 mb-5 project-title" id="project">
           <strong>My Personal Work</strong>
         </h1>

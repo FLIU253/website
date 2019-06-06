@@ -9,9 +9,9 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience" id="experience">
-        <div className="container">
+        <div className="container p-5">
           <h1
-            className="text-center p-4 experience-title"
+            className="text-center pb-5 experience-title"
             data-aos="zoom-out-down"
           >
             <strong>Here is What I have Done So Far</strong>

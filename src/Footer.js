@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div data-aos="slide-up" id="contact">
-      <footer className="footer">
+      <footer className="footer p-5">
         <div className="footer-info">
           <h2 className="pt-4">Toronto Based</h2>
           <p>Let's get in touch.</p>
@@ -14,7 +14,8 @@ const Footer = () => {
           </p>
         </div>
         <div className="container">
-          <div className="row p-5">
+        <h4 className = "pt-5">My Social media</h4>
+          <div className="row">
             <div className="col-3" />
             <div className="col-6">
               <a

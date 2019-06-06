@@ -17,7 +17,7 @@ const particlesOptions = {
 
 const Landing = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper" id = "landing">
       <Particles params={particlesOptions} style={{ position: "relative" }} />
       <div className="menu-icon">
         <i className="fa fa-bars fa-2x" />
