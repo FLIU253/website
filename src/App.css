@@ -2,3 +2,7 @@ span {
     font-size: 25px;
     margin: 0px 10px 0px;
 }
+.all-content{
+    overflow-x:hidden;
+    overflow-y: hidden;
+}

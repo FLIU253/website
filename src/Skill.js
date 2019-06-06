@@ -79,7 +79,7 @@ class Skill extends Component {
                 <div
                   className={
                     this.state.developmentCollapse
-                      ? "card-body ropdown-visible text-center"
+                      ? "card-body dropdown-visible text-center"
                       : "card-body dropdown-not-visible"
                   }
                 >

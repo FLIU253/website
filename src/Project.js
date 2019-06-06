@@ -45,7 +45,7 @@ class Project extends React.Component {
               <img className="card-img" src={shoppingCart} alt="Card cap" />
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1000">
+            <div data-aos="fade-left" data-aos-duration="1000">
               <img className="card-img" src={jobSort} alt="Card cap" />
             </div>
           </div>
