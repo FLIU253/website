@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import Header from "./Header";
 import Landing from "./Landing";
 import About from "./About";
 import Experience from "./Experience";
@@ -8,27 +7,25 @@ import Project from "./Project";
 import Skill from "./Skill";
 import Footer from "./Footer";
 import Interest from "./Interest";
-import AOS from 'aos';
-import '../node_modules/aos/dist/aos.css'; 
+import AOS from "aos";
+import "../node_modules/aos/dist/aos.css";
 
 class App extends Component {
-  
-  componentDidMount(){
+  componentDidMount() {
     AOS.init();
   }
-  componentWillReceiveProps(){
+  componentWillReceiveProps() {
     AOS.refresh();
   }
   render() {
     return (
-      <div>
-        <Header />
+      <div className="all-content">
         <Landing />
         <About />
         <Experience />
         <Project />
         <Skill />
-        <Interest/>
+        <Interest />
         <Footer />
       </div>
     );

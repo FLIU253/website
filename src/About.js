@@ -14,18 +14,18 @@ const About = () => {
             <span>Passionate</span>
           </div>
           <div className="col">
-            <i className="fas fa-users"  data-aos="fade-right"/>
+            <i className="fas fa-users" data-aos="fade-right" />
             <span>Team-Oriented</span>
           </div>
         </div>
 
         <div className="row pt-4">
           <div className="col">
-            <i className="fas fa-brain" data-aos="fade-right"/>
+            <i className="fas fa-brain" data-aos="fade-right" />
             <span>Open-Minded</span>
           </div>
           <div className="col">
-            <i className="fas fa-clipboard-check" data-aos="fade-right"/>
+            <i className="fas fa-clipboard-check" data-aos="fade-right" />
             <span>Problem-Solver</span>
           </div>
         </div>
