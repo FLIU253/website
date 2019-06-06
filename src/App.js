@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Navbar from "./Navbar";
 import Landing from "./Landing";
 import About from "./About";
 import Experience from "./Experience";
@@ -20,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="all-content">
+        <Navbar/>
         <Landing />
         <About />
         <Experience />

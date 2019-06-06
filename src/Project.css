@@ -9,7 +9,7 @@
     max-height: 700px;
     max-width: auto;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1;
     -webkit-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 }
@@ -25,7 +25,16 @@
     text-align: center;
 
 }
-
-.card-img:hover {
-    opacity: .5;
+.line{
+    border: 1px solid black;
+    width: 100%;
+}
+.card-info{
+    padding-left: 15px;
+    line-height: 1em;
+    cursor: pointer;
+}
+.card-info-title{
+    margin-top: 10px;
+    color: #007BFF;
 }
