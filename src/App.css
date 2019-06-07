@@ -27,7 +27,6 @@ span {
     margin-right: 10px;
     margin-top: 20px;
     background-color: black;
-    border-radius: 25px;
 }
 
 ul {
@@ -52,7 +51,11 @@ ul {
 }
 
 .list-section a:hover {
-    border-radius: 25px;
-    background-color: red;
+    background-color:#22A39F;
     text-decoration: none;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+.profile-tag, .about-tag, .experience-tag, .project-tag, .skill-tag, .article-tag, .contact-tag{
+    background-color:#22A39F;
 }
