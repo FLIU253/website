@@ -1,102 +1,139 @@
-.experience {
-  background-color: #eeeeee;
-  width: 100%;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding: 5em 0;
+@media only screen and (min-width: 800px){
+  .experience {
+    background-color: #eeeeee;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5em 0;
+  }
+  
+  .experience-title {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .experience-container {
+    display: grid;
+    column-count: 2;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .autodata-logo {
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    border: 5px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+  }
+  
+  .autodata-logo:hover {
+    background: #53a7ea;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  /* mixin for multiline */
+  .description {
+    overflow: hidden;
+    position: relative;
+    line-height: 1em;
+    max-height: 3em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  
+  .description:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .description:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }
+  
+  .western-logo {
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+  }
+  
+  .western-logo:hover {
+    background: #53a7ea;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .western-uni-logo {
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+  }
+  
+  .western-uni-logo:hover {
+    background: #53a7ea;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
 }
-
-.experience-title {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.experience-container {
-  display: grid;
-  column-count: 2;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.autodata-logo {
-  height: auto;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 300px;
-  border: 5px solid #ddd;
-  border-radius: 20px;
-  padding: 5px;
-  transition: all .4s ease-in-out;
-}
-
-.autodata-logo:hover {
-  background: #53a7ea;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-/* mixin for multiline */
-.description {
-  overflow: hidden;
-  position: relative;
-  line-height: 1em;
-  max-height: 3em;
-  text-align: justify;
-  margin-right: -1em;
-  padding-right: 1em;
-}
-
-.description:before {
-  content: '...';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.description:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  width: 1em;
-  height: 1em;
-  margin-top: 0.2em;
-  background: white;
-}
-
-.western-logo {
-  height: auto;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 300px;
-  border-radius: 20px;
-  padding: 5px;
-  transition: all .4s ease-in-out;
-}
-
-.western-logo:hover {
-  background: #53a7ea;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.western-uni-logo {
-  height: auto;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 300px;
-  border-radius: 20px;
-  padding: 5px;
-  transition: all .4s ease-in-out;
-}
-
-.western-uni-logo:hover {
-  background: #53a7ea;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+@media screen and (max-width: 800px) {
+  .experience {
+    background-color: #eeeeee;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .description{
+    font-size: 15px;
+    text-align: center;
+  }
+  .experience-title{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  .experience-container img{
+    display:block;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 20px;
+  }
+  .experience-container p{
+    text-align: center;
+  }
+  .experience-container h3{
+    text-align: center;
+  }
+  .experience-container h5{
+    text-align: center;
+  }
 }

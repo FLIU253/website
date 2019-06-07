@@ -19,9 +19,6 @@ const Landing = () => {
   return (
     <div className="wrapper" id = "landing">
       <Particles params={particlesOptions} style={{ position: "relative" }} />
-      <div className="menu-icon">
-        <i className="fa fa-bars fa-2x" />
-      </div>
       <div className="text-white text-center center">
         <h1 data-aos="zoom-in">
           {" "}
@@ -35,7 +32,7 @@ const Landing = () => {
             className="portait-img"
             data-aos="flip-up"
           />
-          <div className="ml-5">
+          <div className="bio">
             <h3>Details</h3>
             <br />
             <p>

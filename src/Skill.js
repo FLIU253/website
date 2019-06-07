@@ -56,7 +56,7 @@ class Skill extends Component {
         <div className="container pb-5 skills-container">
           <div>
             {" "}
-            <h1 className="text-left p-4 skill-title">
+            <h1 className=" p-4 skill-title">
               <strong>What I Offer</strong>
             </h1>
           </div>
