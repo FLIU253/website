@@ -19,6 +19,7 @@ const Footer = () => {
             <div className="col-3" />
             <div className="col-6">
               <a
+                data-aos="flip-left"
                 href="https://www.facebook.com/franklin.liu3"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -26,6 +27,7 @@ const Footer = () => {
                 <i className="fab fa-facebook fa-3x p-3 footer-icon" />
               </a>
               <a
+               data-aos="flip-up"
                 href="https://www.instagram.com/franklin_liu3/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,6 +35,7 @@ const Footer = () => {
                 <i className="fab fa-instagram fa-3x p-3 footer-icon" />
               </a>
               <a
+               data-aos="flip-down"
                 href="https://www.linkedin.com/in/franklin-liu-199a00141/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,6 +43,7 @@ const Footer = () => {
                 <i className="fab fa-linkedin fa-3x p-3 footer-icon" />
               </a>
               <a
+                data-aos="flip-right"
                 href="https://github.com/FLIU253"
                 target="_blank"
                 rel="noopener noreferrer"

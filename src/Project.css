@@ -56,6 +56,7 @@
 
     .card-img {
         margin: 0.5em 0;
+        padding: 0 2em;
         max-height: 700px;
         max-width: auto;
         cursor: pointer;
@@ -63,6 +64,7 @@
         transition: .5s ease-in-out;
     }
     .card-info {
+        margin: 0 2em;
         padding-left: 15px;
         line-height: 1em;
         cursor: pointer;

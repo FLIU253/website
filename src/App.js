@@ -22,8 +22,8 @@ class App extends Component {
       projectActive: false,
       skillActive: false,
       articleActive: false,
-      contactActive: false
-
+      contactActive: false,
+      burgerActive: false
     }
   }
 
@@ -75,9 +75,51 @@ class App extends Component {
     console.log("test");
   };
 
+  onBurgerClick = () => {
+    this.setState({burgerActive: !this.state.burgerActive});
+    console.log("test");
+  }
   render() {
     return (
-      <div className="all-content">
+      <div className="all-content" >
+      <div className = "burger-nav" data-aos="fade-down">
+        <i className="fas fa-bars dropdown-nav" style={{ fontSize: "1.5em" }} onClick = {this.onBurgerClick}></i>
+        {this.state.burgerActive && (
+          <div className = "burger-tag" >
+            <hr style = {{border:"1px solid white", width: "100%", marginTop: "28px"}}/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#landing" style = {{color: "white", textDecoraction: "none"}} >
+          Profile
+        </AnchorLink>
+        <br/>
+        <AnchorLink offset={() => 100} data-aos="fade-down" href="#about"style = {{color: "white", textDecoraction: "none"}}>
+          About
+          </AnchorLink>
+          <br/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#experience" style = {{color: "white", textDecoraction: "none"}}>
+            Experience
+          </AnchorLink>
+          <br/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#project" style = {{color: "white", textDecoraction: "none"}}>
+            Projects
+          </AnchorLink>
+          <br/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#skill" style = {{color: "white", textDecoraction: "none"}}>
+            Skills
+          </AnchorLink>
+          <br/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#article" style = {{color: "white", textDecoraction: "none"}}>
+            Articles
+          </AnchorLink>
+          <br/>
+          <AnchorLink offset={() => 100} data-aos="fade-down" href="#contact" style = {{color: "white", textDecoraction: "none"}}>
+            Contacts
+          </AnchorLink>
+          <br/>
+        </div>
+        
+        )}
+        </div>
+        
         <div className="sidebar">
           <ul>
             <li className= {this.state.profileActive ? "list-section profile-tag" : "list-section"}>
