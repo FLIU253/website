@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="container">
-        <h4 className = "pt-5">My Social media</h4>
+          <h4 className="pt-5">My Social media</h4>
           <div className="row">
             <div className="col-3" />
             <div className="col-6">

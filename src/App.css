@@ -2,44 +2,57 @@ span {
     font-size: 25px;
     margin: 0px 10px 0px;
 }
-.all-content{
-    overflow-x:hidden;
+
+.all-content {
+    overflow-x: hidden;
     overflow-y: hidden;
 }
-.up-arrow{
-    position:fixed;
+
+.up-arrow {
+    position: fixed;
     z-index: 10;
     right: 0px;
     bottom: 0px;
-    margin-right:  20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     color: #228B22;
     cursor: pointer;
 }
-.sidebar{
-    position:fixed;
+
+.sidebar {
+    position: fixed;
     z-index: 10;
     right: 0px;
     top: 0px;
-    margin-right:  10px;
+    margin-right: 10px;
     margin-top: 20px;
-    background-color: pink;
+    background-color: black;
     border-radius: 25px;
 }
-ul{
-    margin: 0;
+
+ul {
+    margin: 0 !important;
     padding: 0;
 }
-.list-section{
+
+.list-section {
     list-style-type: none;
 }
-.list-section a{
-    display:block;
-    width:75px;
+
+.list-section a {
+    display: block;
+    width: 75px;
     height: 50px;
     text-align: center;
     font-size: 12px;
     padding-top: 19px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.list-section a:hover {
+    border-radius: 25px;
+    background-color: red;
+    text-decoration: none;
 }

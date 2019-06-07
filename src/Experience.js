@@ -3,7 +3,7 @@ import "./Experience.css";
 import autodata from "./images/autodata.jpg";
 import western from "./images/western.jpg";
 import westernUni from "./images/western university.jpg";
-import mcdonalds from './images/mcdonalds.jpg';
+import mcdonalds from "./images/mcdonalds.jpg";
 
 class Experience extends Component {
   render() {
@@ -55,7 +55,6 @@ class Experience extends Component {
               </p>
             </div>
           </div>
-
           <div className="experience-container mt-5">
             <div>
               <img
@@ -161,7 +160,7 @@ class Experience extends Component {
               </h3>
               <h5 style={{ color: "#5E9516" }}>Crew Member</h5>
               <p style={{ fontWeight: "bold" }}>
-              95 Bamburgh Cir, Scarborough, ON M1W 3G4
+                95 Bamburgh Cir, Scarborough, ON M1W 3G4
               </p>
               <p className="description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -177,7 +176,6 @@ class Experience extends Component {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     );
