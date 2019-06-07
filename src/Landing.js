@@ -1,25 +1,11 @@
 import React from "react";
 import "./Landing.css";
 import PORTAIT from "./images/portait.jpg";
-import Particles from "react-particles-js";
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 100,
-      density: {
-        enable: true,
-        value_area: 500
-      }
-    }
-  }
-};
-
+  
 const Landing = () => {
   return (
     <div className="wrapper" id = "landing">
-      <Particles params={particlesOptions} style={{ position: "relative" }} />
-      <div className="text-white text-center center">
+      <div className="text-white text-center landing-info">
         <h1 data-aos="zoom-in">
           {" "}
           <hr />
