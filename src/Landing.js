@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className="wrapper" id = "landing">
       <div className="text-white text-center landing-info">
-        <h1 data-aos="zoom-in">
+        <h1 data-aos="zoom-in" style = {{'color': '#E6F1FF', 'fontWeight' : 'bold', 'fontSize' : '70px'}}>
           {" "}
           <hr />
           Hello, I'm Franklin Liu <hr />
