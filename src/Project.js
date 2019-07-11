@@ -32,9 +32,9 @@ class Project extends React.Component {
 
   render() {
     return (
-      <div className="project" id = "#project">
+      <div className="project" id = "#project" style = {{backgroundColor: "rgb(10, 25, 47)"}}>
         <h1 className="text-center p-1 mb-5 project-title" id="project">
-          <strong>My Personal Work</strong>
+          <strong >My Personal Work</strong>
         </h1>
         <div className="container pb-4">
           <div className="project-grid">

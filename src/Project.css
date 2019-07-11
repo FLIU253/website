@@ -2,10 +2,12 @@
     .project {
         padding: 5em 10em;
         font-family: 'Roboto Condensed', sans-serif;
+        color: #64ffda;
     }
     
     .project-title {
         font-family: 'Josefin Sans', sans-serif;
+        color: #E6F1FF;
     }
     
     .card-img {
@@ -26,7 +28,7 @@
     }
     
     .line {
-        border: 1px solid black;
+        border: 1px solid #64ffda;
         width: 100%;
     }
     
@@ -47,10 +49,12 @@
     .project {
         padding-top: 5em;
         font-family: 'Roboto Condensed', sans-serif;
+        color: #64ffda;
     }
     
     .project-title {
         font-family: 'Josefin Sans', sans-serif;
+        color: #E6F1FF;
     }
     
 
@@ -77,7 +81,7 @@
     }
         
     .line {
-        border: 1px solid black;
+        border: 1px solid #64ffda;
         width: 100%;
     }
     

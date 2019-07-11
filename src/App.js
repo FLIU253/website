@@ -162,7 +162,7 @@ class App extends Component {
 
         <i
           className="fas fa-caret-square-up up-arrow"
-          style={{ fontSize: "1.5em" }}
+          style={{ fontSize: "1.5em",  "mixBlendMode": "difference"}}
           onClick={this.onUpArrowClick}
         />
         <IntersectionVisible

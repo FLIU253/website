@@ -38,3 +38,16 @@
   font-weight: lighter;
   line-height: 0.2em;
 }
+.email-button{
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(100, 255, 218);
+  background-color: transparent;
+  font-size: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(100, 255, 218);
+  border-radius: 3px;
+  padding: 1.0rem 1.5rem;
+}
