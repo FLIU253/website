@@ -120,6 +120,7 @@ class Skill extends Component {
                         <li>Nodejs</li>
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>Express</li>
                       </ul>
                     </div>
                     </div>
