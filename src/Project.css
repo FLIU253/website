@@ -1,6 +1,6 @@
 @media only screen and (min-width: 800px){
     .project {
-        padding: 5em 10em;
+        padding: 8em 10em;
         font-family: 'Roboto Condensed', sans-serif;
         color: #64ffda;
     }
@@ -47,7 +47,7 @@
 }
 @media screen and (max-width: 800px){
     .project {
-        padding-top: 5em;
+        padding-top: 8em;
         font-family: 'Roboto Condensed', sans-serif;
         color: #64ffda;
     }

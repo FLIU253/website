@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div data-aos="slide-up" id="contact">
-      <footer className="footer p-5">
+      <footer className="footer">
         <div className="footer-info">
           <h5 style = {{'color': '#64ffda'}}>What's Next?</h5>
           <h1 style = {{'color': '#E6F1FF', 'fontWeight' : 'bold', 'fontSize' : '50px'}} className="pt-4">Get In Touch</h1>

@@ -4,7 +4,7 @@ import "./Interest.css";
 class Interest extends Component {
   render() {
     return (
-      <div className="system p-5" id="article">
+      <div className="system" id="article">
         <div className="text-center p-4 interest" data-aos="zoom-out-down">
           <h2 className="fancy-header text-center ">
             <strong>This is My System</strong>

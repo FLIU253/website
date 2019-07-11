@@ -30,7 +30,7 @@ const About = () => {
         </div>
         <div className="row pt-4 text-center">
           <div className="col-1" />
-          <div className="col-10 p-5">
+          <div className="col-10 p-5 mb-5">
             Hello! I'm Franklin, a software engineering student based in Toronto, ON but currently attending school
             at <a href = "https://uwo.ca/" target = "_blank" rel="noopener noreferrer" className = "uni-link">Western University</a> in London, ON.  I enjoy developing web applications with the hopes of becoming a
             fullstack web developer. One day I also hope to en an entrepreneur. 
