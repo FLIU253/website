@@ -147,7 +147,7 @@ class Experience extends Component {
               />
             </div>
             <div className="text-left" data-aos="zoom-out-down">
-              <p>September, 2014 - Augus, 2016</p>
+              <p>September, 2014 - August, 2016</p>
               <h3 style={{ color: "#3377CC" }}>
                 <a
                   style={{ textDecoration: "none" }}
