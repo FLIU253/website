@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="copyright">
-        <div className="footer-copyright text-center py-3 copy-text p-4">
+        <div className=" text-center py-3 p-4 footer-text">
           Franklin Liu © 2019 Copyright
         </div>
       </div>

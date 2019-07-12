@@ -4,6 +4,8 @@ import shoppingCart from "./images/shopping-cart.png";
 import spotifyClone from "./images/spotify-clone.png";
 import animeClient from "./images/anime-client.png";
 import jobSort from "./images/jobSort.png";
+import animeGenerator from "./images/anime-generator.png";
+import chromeExtension from "./images/chrome-extension.png";
 
 class Project extends React.Component {
   constructor(props) {
@@ -33,8 +35,58 @@ class Project extends React.Component {
   render() {
     return (
       <div className="project" id = "#project" style = {{backgroundColor: "rgb(10, 25, 47)"}}>
-        <h1 className="text-center p-1 mb-5 project-title" id="project">
-          <strong >My Personal Work</strong>
+
+      <div className="container pb-4">
+      <h1 className="text-center p-1 mb-5 project-title" id="project"><strong >Some Thing I've Bulit</strong></h1>
+        <div className = "project-grid mb-5">
+          <div>
+          <img className="card-img" src={animeGenerator} alt="Card cap" data-aos="fade-left" />
+          </div>
+          <div className = "featured-description">
+            <p style = {{marginBottom: "0"}}>Featured Project</p>
+            <h4 className = "project-name">Random Anime Generator</h4>
+            <p className = "project-description">A fun application that can generate a random anime for the user using MAL's unofficial API.
+              This application can also create an anime tier list based on a user's MAL account username. 
+            </p>
+            <ul className = "language-list">
+              <li>Vue.Js</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>MAL's Unofficial API</li>
+            </ul>
+              <a href="https://github.com/FLIU253/random-anime-generator" target = "_blank"  rel="noopener noreferrer" alt = "github icon">
+              <i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        
+
+        <div className = "project-grid mb-5 mt-5">
+          <div className = "text-left">
+            <p style = {{marginBottom: "0"}}>Featured Project</p>
+            <h4 className = "project-name">Chrome Anime Dashboard Extension</h4>
+            <p className = "project-description">Replace new tab page with a randomly generated anime wallpaper. 
+            The new tab page also displays the current temperature and location of the user. This extension also 
+            shows the current anime airing schedule. 
+            </p>
+            <ul className = "language-list-2">
+              <li>Vue.Js</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Alphacoders' API</li>
+              <li>OpenWeather's API</li>
+            </ul>
+              <a href="https://github.com/FLIU253/anime-schedule-extension" target = "_blank"  rel="noopener noreferrer" alt = "github icon">
+              <i className="fab fa-github"></i></a>
+          </div>
+          <div>
+          <img className="card-img" src={chromeExtension} alt="Card cap" data-aos="fade-left" />
+          </div>
+        </div>
+
+      </div>
+
+        <h1 className="text-center p-1 mb-5 project-title" id="project" style = {{marginTop: "200px"}}>
+          <strong >Other Projects</strong>
         </h1>
         <div className="container pb-4">
           <div className="project-grid">
