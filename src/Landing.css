@@ -4,7 +4,7 @@
     height: 101vh;
     background-color:rgb(10, 25, 47);
     background-size: cover;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: sanfran;
   }
   
   .landing-info {
@@ -17,8 +17,8 @@
     max-width: 250px;
     height: auto;
     border-style: solid;
-    border-width: 10px;
-    border-color: white;
+    border-width: 6px;
+    border-color: #64ffda;
     margin-left: auto;
     margin-right: 0;
     justify-content: center;
@@ -53,7 +53,7 @@
     height: 105vh;
     background-color:rgb(10, 25, 47);
     background-size: cover;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: sanfran;
   }
   .landing-info {
     padding-top: 100px;
@@ -63,8 +63,8 @@
     max-width: 250px;
     height: auto;
     border-style: solid;
-    border-width: 10px;
-    border-color: white;
+    border-width: 6px;
+    border-color: #64ffda;
     margin-left: auto;
   }
   .profile{

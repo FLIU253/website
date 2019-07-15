@@ -2,17 +2,21 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #252934;
-  color: white;
+  background-color: rgb(10, 25, 47);
+  color: #8892b0;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 7em 5em;
 }
-
+.footer-text{
+  color:#8892B0;
+  font-size: 15px;
+}
 .copyright{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color:#1B242F;
+  background-color:#020C1B;
   color: white;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -22,7 +26,7 @@
   opacity: 0.5;
 }
 .footer-icon{
-  color: #FFFFFF;
+  color: #64ffda;
   transition: all .4s ease-in-out;
 }
 .footer-icon:hover{
@@ -37,4 +41,22 @@
   opacity: 0.7;
   font-weight: lighter;
   line-height: 0.2em;
+}
+.email-button{
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(100, 255, 218);
+  background-color: transparent;
+  font-size: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(100, 255, 218);
+  border-radius: 3px;
+  padding: 1.0rem 1.5rem;
+}
+.email-button:hover{
+  text-decoration: none;
+  color: rgb(100, 255, 218);
+  opacity: 0.5;
 }

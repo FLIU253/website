@@ -4,7 +4,8 @@
   line-height: 30px;
   text-align: justify;
   font-family: 'Roboto Condensed', sans-serif;
-  background-image: url("http://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/9621/a4011e77-0e25-416f-ab13-d3840a5664e3_kssoov.jpg");
+  /* background-image: url("http://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/9621/a4011e77-0e25-416f-ab13-d3840a5664e3_kssoov.jpg"); */
+  background-color:rgb(10, 25, 47);
   background-size: cover;
   height: auto;
   background-repeat: no-repeat;
@@ -22,4 +23,14 @@
 
 .fas {
   font-size: 50px;
+  color: #64ffda;
+}
+.uni-link{
+  cursor: pointer;
+  color: rgb(100, 255, 218);
+  text-decoration: underline;
+}
+.uni-link:hover{
+  color:rgb(100, 255, 218);
+  font-weight: bold;
 }

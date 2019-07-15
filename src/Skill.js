@@ -39,7 +39,7 @@ class Skill extends Component {
 
   render() {
     return (
-      <div className="skill p-5" id="skill">
+      <div className="skill" id="skill">
         <div className="container pb-5 skills-container">
           <div>
             {" "}
@@ -120,6 +120,7 @@ class Skill extends Component {
                         <li>Nodejs</li>
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>Express</li>
                       </ul>
                     </div>
                     </div>

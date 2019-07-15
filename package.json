@@ -10,6 +10,7 @@
     "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.8.1",
     "react-drag-drawer": "^3.3.0",
+    "react-github-corner": "^2.3.0",
     "react-intersection-visible": "^2.1.0",
     "react-on-screen": "^2.1.1",
     "react-particles-js": "^2.6.0",
