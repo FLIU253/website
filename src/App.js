@@ -211,7 +211,7 @@ class App extends Component {
         <Footer />
         </IntersectionVisible>
         
-        <GithubCorner href="https://github.com/username/repo" direction = "left" size = "100" bannerColor = "#000000" className = "github-banner"/>
+        <GithubCorner href="https://github.com/FLIU253/FLIU253" direction = "left" size = "100" bannerColor = "#000000" className = "github-banner"/>
       </div>
     );
   }
