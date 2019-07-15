@@ -33,7 +33,7 @@ const About = () => {
           <div className="col-10 p-5 mb-5" data-aos="fade-up" data-aos-duration="2000">
             Hello! I'm Franklin, a software engineering student based in Toronto, ON but currently attending school
             at <a href = "https://uwo.ca/" target = "_blank" rel="noopener noreferrer" className = "uni-link">Western University</a> in London, ON.  I enjoy developing web applications with the hopes of becoming a
-            fullstack web developer. One day I also hope to en an entrepreneur. 
+            fullstack web developer. One day I also hope to become an entrepreneur. 
           </div>
           <div className="col-1" />
         </div>

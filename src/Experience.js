@@ -42,16 +42,7 @@ class Experience extends Component {
                 100 Dundas St suite 500, London, ON N6A 5B6
               </p>
               <p className="description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+               Currently working here!
               </p>
             </div>
           </div>
@@ -83,16 +74,10 @@ class Experience extends Component {
                 100 Dundas St suite 500, London, ON N6A 5B6
               </p>
               <p className="description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                  During my experience here, I learned how to film, record and edit content for professors and University faculty members.
+                  I also collabrated with collegues to produce content such as instructional videos and online quizzes written in LaTeX for
+                  professors to use in classrooms. Finally, I created and edited HTML and CSS files for faculty members' course websites to enhance
+                  and improve students' learning experience.
               </p>
             </div>
           </div>
@@ -123,16 +108,10 @@ class Experience extends Component {
                 1151 Richmond St, London, ON N6A 3K7
               </p>
               <p className="description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                  Currently studying Software Engineering at Western University. As of right now from May 2019 to August 2020, I am on a 
+                  16 month internship at Autodata Solutions. I will be returning to school in September 2020 as a 4th year Software Engineering student.
+                  I play Varsity Ultimate Frisbee at Western and I was a honors student for my first two years at Western. I also received the Freedom 55
+                  Financial Scholar Athlete Award for achieving an average of 80% or higher while participating in a varsity sport. 
               </p>
             </div>
           </div>
@@ -163,16 +142,8 @@ class Experience extends Component {
                 95 Bamburgh Cir, Scarborough, ON M1W 3G4
               </p>
               <p className="description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                This was the first ever job I worked. At McDonald's, I collaborated with fellow crew members to prepare customers' order in a 
+                fast-paced high stress environment. I was once named employee of the month during my time here. 
               </p>
             </div>
           </div>
