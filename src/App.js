@@ -210,7 +210,8 @@ class App extends Component {
         onHide={() => this.removeColor("contact")}>
         <Footer />
         </IntersectionVisible>
-        <GithubCorner href="https://github.com/username/repo" direction = "left" size = "100" bannerColor = "#000000"/>
+        
+        <GithubCorner href="https://github.com/username/repo" direction = "left" size = "100" bannerColor = "#000000" className = "github-banner"/>
       </div>
     );
   }

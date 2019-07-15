@@ -101,4 +101,7 @@ span {
           opacity: 1;
         }
       }
+    .github-banner{
+        display: none;
+    }
 }
