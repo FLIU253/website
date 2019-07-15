@@ -11,6 +11,7 @@ import AOS from "aos";
 import "../node_modules/aos/dist/aos.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import IntersectionVisible    from 'react-intersection-visible';
+import GithubCorner from 'react-github-corner';
 
 class App extends Component {
   constructor(props){
@@ -209,6 +210,7 @@ class App extends Component {
         onHide={() => this.removeColor("contact")}>
         <Footer />
         </IntersectionVisible>
+        <GithubCorner href="https://github.com/username/repo" direction = "left" size = "100" bannerColor = "#000000"/>
       </div>
     );
   }

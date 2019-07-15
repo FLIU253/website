@@ -6,13 +6,13 @@ const Landing = () => {
   return (
     <div className="wrapper" id = "landing">
       <div className="text-white text-center landing-info">
-        <h5 style = {{'color': '#64ffda'}}>Hi, my name is </h5>
-        <h1 data-aos="zoom-in" style = {{'color': '#E6F1FF', 'fontWeight' : 'bold', 'fontSize' : '70px'}}>
+        <h5 style = {{'color': '#64ffda'}}  data-aos="fade-down" data-aos-duration="3000">Hi, my name is </h5>
+        <h1 data-aos="zoom-in" style = {{'color': '#E6F1FF', 'fontWeight' : 'bold', 'fontSize' : '70px'}} data-aos-duration="3000">
           {" "}
           <hr />
           Franklin Liu <hr />
         </h1>
-        <div className="profile" data-aos="zoom-in">
+        <div className="profile" data-aos="zoom-in" data-aos-duration="3000">
           <img
             src={PORTAIT}
             alt="portait"

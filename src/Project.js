@@ -37,12 +37,12 @@ class Project extends React.Component {
       <div className="project" id = "#project" style = {{backgroundColor: "rgb(10, 25, 47)"}}>
 
       <div className="container pb-4">
-      <h1 className="text-center p-1 mb-5 project-title" id="project"><strong >Some Thing I've Bulit</strong></h1>
+      <h1 className="text-center p-1 mb-5 project-title" id="project"><strong data-aos="fade-down" data-aos-duration="1500">Some Thing I've Bulit</strong></h1>
         <div className = "project-grid mb-5">
           <div>
-          <img className="card-img" src={animeGenerator} alt="Card cap" data-aos="fade-left" />
+          <img className="card-img" src={animeGenerator} alt="Card cap" data-aos="fade-right" data-aos-duration="1500"/>
           </div>
-          <div className = "featured-description">
+          <div className = "featured-description"data-aos="fade-left" data-aos-duration="1500">
             <p style = {{marginBottom: "0"}}>Featured Project</p>
             <h4 className = "project-name">Random Anime Generator</h4>
             <p className = "project-description">A fun application that can generate a random anime for the user using MAL's unofficial API.
@@ -55,13 +55,13 @@ class Project extends React.Component {
               <li>MAL's Unofficial API</li>
             </ul>
               <a href="https://github.com/FLIU253/random-anime-generator" target = "_blank"  rel="noopener noreferrer" alt = "github icon">
-              <i class="fab fa-github"></i></a>
+              <i className ="fab fa-github"></i></a>
           </div>
         </div>
         
 
         <div className = "project-grid mb-5 mt-5">
-          <div className = "text-left">
+          <div className = "text-left" data-aos="fade-right" data-aos-duration="1500">
             <p style = {{marginBottom: "0"}}>Featured Project</p>
             <h4 className = "project-name">Chrome Anime Dashboard Extension</h4>
             <p className = "project-description">Replace new tab page with a randomly generated anime wallpaper. 
@@ -79,14 +79,14 @@ class Project extends React.Component {
               <i className="fab fa-github"></i></a>
           </div>
           <div>
-          <img className="card-img" src={chromeExtension} alt="Card cap" data-aos="fade-left" />
+          <img className="card-img" src={chromeExtension} alt="Card cap" data-aos="fade-left" data-aos-duration="1500"/>
           </div>
         </div>
 
       </div>
 
         <h1 className="text-center p-1 mb-5 project-title" id="project" style = {{marginTop: "200px"}}>
-          <strong >Other Projects</strong>
+          <strong data-aos="fade-up">Other Projects</strong>
         </h1>
         <div className="container pb-4">
           <div className="project-grid">
