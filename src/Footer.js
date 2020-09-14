@@ -1,23 +1,35 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
     <div data-aos="slide-up" id="contact">
       <footer className="footer">
         <div className="footer-info">
-          <h5 style = {{'color': '#64ffda'}}>What's Next?</h5>
-          <h1 style = {{'color': '#E6F1FF', 'fontWeight' : 'bold', 'fontSize' : '50px'}} className="pt-4">Get In Touch</h1>
+          <h5 style={{ color: '#64ffda' }}>What's Next?</h5>
+          <h1
+            style={{ color: '#E6F1FF', fontWeight: 'bold', fontSize: '50px' }}
+            className="pt-4"
+          >
+            Get In Touch
+          </h1>
           <h2 className="pt-4 mb-4">Toronto Based</h2>
           <p>Let's get in touch.</p>
           <p>My email is: </p>
-          <p style={{ textDecoration: "underline" }} className = "mb-5 pb-3">
+          <p style={{ textDecoration: 'underline' }} className="mb-5 pb-3">
             franklin_liu3@hotmail.com
           </p>
-          <a href="mailto: franklin_liu3@hotmail.com" target="_blank" rel = "nofollow noopener noreferrer" className = "email-button">Say Hello</a>
+          <a
+            href="mailto: franklin_liu3@hotmail.com"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="email-button"
+          >
+            Say Hello
+          </a>
         </div>
         <div className="container">
-          <h4 className="pt-5">My Social media</h4>
+          <h4 className="pt-5">My Social Media</h4>
           <div className="row">
             <div className="col-3" />
             <div className="col-6">
@@ -30,7 +42,7 @@ const Footer = () => {
                 <i className="fab fa-facebook fa-3x p-3 footer-icon" />
               </a>
               <a
-               data-aos="flip-up"
+                data-aos="flip-up"
                 href="https://www.instagram.com/franklin_liu3/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -38,7 +50,7 @@ const Footer = () => {
                 <i className="fab fa-instagram fa-3x p-3 footer-icon" />
               </a>
               <a
-               data-aos="flip-down"
+                data-aos="flip-down"
                 href="https://www.linkedin.com/in/franklin-liu-199a00141/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -60,7 +72,7 @@ const Footer = () => {
       </footer>
       <div className="copyright">
         <div className=" text-center py-3 p-4 footer-text">
-          Franklin Liu © 2019 Copyright
+          Franklin Liu © 2020 Copyright
         </div>
       </div>
     </div>

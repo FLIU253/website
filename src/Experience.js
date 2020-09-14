@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import "./Experience.css";
-import autodata from "./images/autodata.jpg";
-import western from "./images/western.jpg";
-import westernUni from "./images/western university.jpg";
-import mcdonalds from "./images/mcdonalds.jpg";
+import React, { Component } from 'react';
+import './Experience.css';
+import autodata from './images/autodata.jpg';
+import western from './images/western.jpg';
+import westernUni from './images/western university.jpg';
+import mcdonalds from './images/mcdonalds.jpg';
 
 class Experience extends Component {
   render() {
@@ -26,24 +26,49 @@ class Experience extends Component {
               />
             </div>
             <div className="text-left" data-aos="zoom-out-down">
-              <p>May 7th, 2019 - August 28th, 2019</p>
-              <h3 style={{ color: "#3377CC" }}>
+              <p>May, 2019 - August, 2020</p>
+              <h3 style={{ color: '#3377CC' }}>
                 <a
-                  style={{ textDecoration: "none" }}
-                  href="https://autodata.net/"
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.autodatasolutions.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   Autodata Solutions
                 </a>
               </h3>
-              <h5 style={{ color: "#5E9516" }}>QA Automation Analyst</h5>
-              <p style={{ fontWeight: "bold" }}>
+              <h5 style={{ color: '#5E9516' }}>
+                QA Automation Analyst | Java, Cucumber, SerenityBDD
+              </h5>
+              <p style={{ fontWeight: 'bold' }}>
                 100 Dundas St suite 500, London, ON N6A 5B6
               </p>
-              <p className="description">
-               Currently working here!
-              </p>
+              <ul>
+                <li>
+                  Developed and maintained the regression test suite from
+                  scratch
+                </li>
+                <li>
+                  Increased the overall amount of test coverage by 50% through
+                  writing 50+ test scenarios
+                </li>
+                <li>
+                  Decreased the amount of time needed for regression testing by
+                  over 30% as more automation testing was developed
+                </li>
+                <li>
+                  Maintained cooperative relationships with developers and
+                  communicate with stakeholders
+                </li>
+                <li>
+                  Tracked the status of defects and provided a status report
+                  during daily meetings
+                </li>
+                <li>
+                  Analyzed software requirements and design documentation,
+                  created test plans and test cases to validate business logic
+                </li>
+              </ul>
             </div>
           </div>
           <div className="experience-container mt-5">
@@ -56,10 +81,10 @@ class Experience extends Component {
               />
             </div>
             <div className="text-left" data-aos="zoom-out-down">
-              <p>May 2nd, 2018 - April 29th, 2019</p>
-              <h3 style={{ color: "#3377CC" }}>
+              <p>May, 2018 - April, 2019</p>
+              <h3 style={{ color: '#3377CC' }}>
                 <a
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: 'none' }}
                   href="https://itrc.uwo.ca/"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -67,18 +92,21 @@ class Experience extends Component {
                   Western Technology Services
                 </a>
               </h3>
-              <h5 style={{ color: "#5E9516" }}>
-                Instructional Technology Resoure Centre Consultant
-              </h5>
-              <p style={{ fontWeight: "bold" }}>
+              <h5 style={{ color: '#5E9516' }}>IT Consultant | HTML, CSS</h5>
+              <p style={{ fontWeight: 'bold' }}>
                 100 Dundas St suite 500, London, ON N6A 5B6
               </p>
-              <p className="description">
-                  During my experience here, I learned how to film, record and edit content for professors and University faculty members.
-                  I also collabrated with collegues to produce content such as instructional videos and online quizzes written in LaTeX for
-                  professors to use in classrooms. Finally, I created and edited HTML and CSS files for faculty members' course websites to enhance
-                  and improve students' learning experience.
-              </p>
+              <ul>
+                <li>
+                  Educated professors and faculty members on how to use
+                  different technologies such as Western's learning management
+                  system
+                </li>
+                <li>
+                  Created and edited CSS and HTML files for faculty members’
+                  course websites toenhance the students’ learning experience
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -93,26 +121,29 @@ class Experience extends Component {
             </div>
             <div className="text-left" data-aos="zoom-out-down">
               <p>September, 2016 - April, 2021</p>
-              <h3 style={{ color: "#3377CC" }}>
+              <h3 style={{ color: '#3377CC' }}>
                 <a
                   href="https://uwo.ca/"
                   rel="noopener noreferrer"
                   target="_blank"
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: 'none' }}
                 >
                   Western University
                 </a>
               </h3>
-              <h5 style={{ color: "#5E9516" }}>BESc in Software Engineering</h5>
-              <p style={{ fontWeight: "bold" }}>
+              <h5 style={{ color: '#5E9516' }}>BESc in Software Engineering</h5>
+              <p style={{ fontWeight: 'bold' }}>
                 1151 Richmond St, London, ON N6A 3K7
               </p>
-              <p className="description">
-                  Currently studying Software Engineering at Western University. As of right now from May 2019 to August 2020, I am on a 
-                  16 month internship at Autodata Solutions. I will be returning to school in September 2020 as a 4th year Software Engineering student.
-                  I play Varsity Ultimate Frisbee at Western and I was a honors student for my first two years at Western. I also received the Freedom 55
-                  Financial Scholar Athlete Award for achieving an average of 80% or higher while participating in a varsity sport. 
-              </p>
+              <ul>
+                <li>
+                  Dean's honor list in the calendar school year of 2016 - 2017
+                  and 2017 - 2018
+                </li>
+                <li>
+                  Participated in a 16 month inernship program from 2019 - 2020
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -127,9 +158,9 @@ class Experience extends Component {
             </div>
             <div className="text-left" data-aos="zoom-out-down">
               <p>September, 2014 - August, 2016</p>
-              <h3 style={{ color: "#3377CC" }}>
+              <h3 style={{ color: '#3377CC' }}>
                 <a
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: 'none' }}
                   href="https://www.mcdonalds.com/ca/en-ca.html"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -137,14 +168,20 @@ class Experience extends Component {
                   McDonald's Canada
                 </a>
               </h3>
-              <h5 style={{ color: "#5E9516" }}>Crew Member</h5>
-              <p style={{ fontWeight: "bold" }}>
+              <h5 style={{ color: '#5E9516' }}>Crew Member</h5>
+              <p style={{ fontWeight: 'bold' }}>
                 95 Bamburgh Cir, Scarborough, ON M1W 3G4
               </p>
-              <p className="description">
-                This was the first ever job I worked. At McDonald's, I collaborated with fellow crew members to prepare customers' order in a 
-                fast-paced high stress environment. I was once named employee of the month during my time here. 
-              </p>
+              <ul>
+                <li>
+                  Collaborated with fellow crew members to prepare customers’
+                  orders in a fastpaced high stress environment
+                </li>
+                <li>
+                  Awarded employee of the month for outstanding customer service
+                  and satisfaction
+                </li>
+              </ul>
             </div>
           </div>
         </div>

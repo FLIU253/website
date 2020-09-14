@@ -1,24 +1,24 @@
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) {
     .project {
         padding: 8em 10em;
         font-family: 'Roboto Condensed', sans-serif;
         color: #64ffda;
     }
-    
+
     .project-title {
         font-family: 'Josefin Sans', sans-serif;
         color: #E6F1FF;
     }
-    
+
     .card-img {
-        max-height: 700px;
+        height: 300px;
         max-width: auto;
         cursor: pointer;
         z-index: 1;
         -webkit-transition: .5s ease-in-out;
         transition: .5s ease-in-out;
     }
-    
+
     .project-grid {
         display: grid;
         column-count: 2;
@@ -26,12 +26,12 @@
         grid-column-gap: 2em;
         grid-row-gap: 2em;
     }
-    
+
     .line {
         border: 1px solid #64ffda;
         width: 100%;
     }
-    
+
     .card-info {
         padding-left: 15px;
         line-height: 1em;
@@ -39,24 +39,25 @@
         height: 100%;
         border-style: solid;
     }
-    
+
     .card-info-title {
         margin-top: 10px;
         color: #007BFF;
     }
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 800px) {
     .project {
         padding-top: 8em;
         font-family: 'Roboto Condensed', sans-serif;
         color: #64ffda;
     }
-    
+
     .project-title {
         font-family: 'Josefin Sans', sans-serif;
         color: #E6F1FF;
     }
-    
+
 
     .card-img {
         margin: 0.5em 0;
@@ -67,6 +68,7 @@
         -webkit-transition: .5s ease-in-out;
         transition: .5s ease-in-out;
     }
+
     .card-info {
         margin: 0 2em;
         padding-left: 15px;
@@ -75,47 +77,55 @@
         height: 100%;
         border-style: solid;
     }
+
     .card-info-title {
         margin-top: 10px;
         color: #007BFF;
     }
-        
+
     .line {
         border: 1px solid #64ffda;
         width: 100%;
     }
-    
+
 }
-.featured-description{
+
+.featured-description {
     text-align: right;
     margin-bottom: 0;
 }
-.project-name{
-    color : #CDD6F6;
+
+.project-name {
+    color: #CDD6F6;
     font-weight: 600;
 }
-.project-description{
-    color:#A8B2D1;
-    background-color:#172A45;
+
+.project-description {
+    color: #A8B2D1;
+    background-color: #172A45;
     padding: 20px;
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     border-radius: 3px;
 }
-.language-list li{
+
+.language-list li {
     display: inline;
     margin-left: 15px;
     color: #A8B2D1;
 }
-.fa-github{
-    color:#A8B2D1;
+
+.fa-github {
+    color: #A8B2D1;
     font-size: 25px;
     margin-top: 10px;
     cursor: pointer;
 }
-.fa-github:hover{
+
+.fa-github:hover {
     color: #64ffda;
 }
-.language-list-2 li{
+
+.language-list-2 li {
     display: inline;
     margin-right: 15px;
     color: #A8B2D1;
